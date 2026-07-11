@@ -8,3 +8,4 @@ def movie_list(movielist):
     serializer = serializers.MovieSerializer(movies, many=True)
     return Response(serializer.data)
 
+

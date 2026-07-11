@@ -8,4 +8,4 @@ class Movielist(models.Model) :
     
     def __str__(self):
         return self.name
-        
+        # Git test
